@@ -51,7 +51,7 @@ db = mongo_client[DB_NAME]
 premium_collection = db[COLLECTION_NAME]
 
 # Logging channel
-LOG_CHANNEL = -1001234567890  # Replace with your actual log channel ID
+LOG_CHANNEL = -1002513844851  # Replace with your actual log channel ID
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -69,7 +69,7 @@ OWNER_ID = 5798579221  # Replace with the actual owner's user ID
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [5798579221]
 
-AUTH_CHANNEL = -1002572301679
+AUTH_CHANNEL = -1002513844851
 
 # Premium system functions
 def is_premium_user(user_id: int) -> bool:
